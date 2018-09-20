@@ -20,6 +20,16 @@
     {
         "key": "f10",
         "command": "workbench.action.tasks.runTask",
-        "args": "Open Raw"
+        "args": "Open Raw",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f7",
+        "command": "workbench.action.tasks.build",
+        "when": "!isInDiffEditor"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.closePanel"
     }
 ]

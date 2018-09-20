@@ -22,6 +22,19 @@
             "type": "shell",
             "command": "${file}",
             "problemMatcher": []
+        },
+        {
+            "label": "Compile Local CoffeeScript",
+            "presentation": {
+                "reveal": "always"
+            },
+            "type": "shell",
+            "command": "coffee -c -m -o ./build .",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

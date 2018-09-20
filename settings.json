@@ -9,5 +9,6 @@
     "editor.fontSize": 13,
     "editor.minimap.enabled": false,
     "global-config.folder": "C:\\Users\\jdrago\\AppData\\Roaming\\Code\\User\\globalConfig",
-    "editor.renderLineHighlight": "none"
+    "editor.renderLineHighlight": "none",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
 }
