@@ -24,12 +24,12 @@
             "problemMatcher": []
         },
         {
-            "label": "Compile Local CoffeeScript",
+            "label": "NPM Local Build",
             "presentation": {
                 "reveal": "always"
             },
             "type": "shell",
-            "command": "coffee -c -m -o ./build .",
+            "command": "npm run build",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

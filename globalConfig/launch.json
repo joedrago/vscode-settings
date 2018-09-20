@@ -11,7 +11,7 @@
             "name": "Launch Program",
             "program": "${file}",
             "smartStep": false,
-            "preLaunchTask": "Compile Local CoffeeScript",
+            "preLaunchTask": "NPM Local Build",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
