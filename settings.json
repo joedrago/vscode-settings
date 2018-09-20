@@ -8,5 +8,6 @@
     "C_Cpp.dimInactiveRegions": false,
     "editor.fontSize": 13,
     "editor.minimap.enabled": false,
-    "global-config.folder": "C:\\Users\\jdrago\\AppData\\Roaming\\Code\\User\\globalConfig"
+    "global-config.folder": "C:\\Users\\jdrago\\AppData\\Roaming\\Code\\User\\globalConfig",
+    "editor.renderLineHighlight": "none"
 }
