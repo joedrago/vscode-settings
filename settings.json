@@ -1,0 +1,12 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Liberation Mono",
+    "editor.wordWrapColumn": 100,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "FireCode",
+    "editor.lineHeight": 15,
+    "C_Cpp.dimInactiveRegions": false,
+    "editor.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "global-config.folder": "C:\\Users\\jdrago\\AppData\\Roaming\\Code\\User\\globalConfig"
+}
