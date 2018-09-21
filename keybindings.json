@@ -30,6 +30,51 @@
     },
     {
         "key": "escape",
-        "command": "workbench.action.closePanel"
+        "command": "workbench.action.closePanel",
+        "when": "!terminalFindWidgetVisible"
+    },
+    {
+        "key": "escape",
+        "command": "removeSecondaryCursors",
+        "when": "editorHasMultipleSelections && textInputFocus && !findWidgetVisible"
+    },
+    {
+        "key": "escape",
+        "command": "closeFindWidget",
+        "when": "findWidgetVisible"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "bookmarks.clearFromAllFiles"
+    },
+    {
+        "key": "ctrl+k ctrl+n",
+        "command": "bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+p",
+        "command": "bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+S",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Uncrustify"
     }
 ]

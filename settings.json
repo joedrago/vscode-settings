@@ -10,5 +10,11 @@
     "editor.minimap.enabled": false,
     "global-config.folder": "C:\\Users\\jdrago\\AppData\\Roaming\\Code\\User\\globalConfig",
     "editor.renderLineHighlight": "none",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "editor.matchBrackets": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "files.trimTrailingWhitespace": true
 }

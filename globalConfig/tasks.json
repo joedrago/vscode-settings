@@ -35,6 +35,23 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Uncrustify",
+            "presentation": {
+                "reveal": "never"
+            },
+            "type": "shell",
+            "command": "${env:APPDATA}\\Code\\User\\uncrustify.exe",
+            "args": [
+                "-c",
+                "${env:APPDATA}\\Code\\User\\uncrustify.cfg",
+                "-f",
+                "${file}",
+                "-o",
+                "${file}"
+            ],
+            "problemMatcher": []
         }
     ]
 }
