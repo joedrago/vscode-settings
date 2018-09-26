@@ -46,9 +46,7 @@
             "args": [
                 "-c",
                 "${env:APPDATA}\\Code\\User\\uncrustify.cfg",
-                "-f",
-                "${file}",
-                "-o",
+                "--no-backup",
                 "${file}"
             ],
             "problemMatcher": []
